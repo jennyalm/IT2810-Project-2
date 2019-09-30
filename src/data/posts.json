@@ -1,0 +1,28 @@
+
+
+[
+  {
+    "lab":"kombinasjon1",
+    "imageSrc": "/static/media/picture1.360c3a5c.svg",
+    "id": 1,
+    "text": "Her er det masse info!! Hva ellers?"
+  },
+  {
+    "lab":"kombinasjon2",
+    "imageSrc": "/static/media/picture2.62069a7d.svg",
+    "id": 2,
+    "text": "Her er det nesten ikke info i det hele tatt."
+  },
+  {
+    "lab":"kombinasjon3",
+    "imageSrc": "/static/media/picture3.e04475b5.svg",
+    "id": 3,
+    "text": "fuck, hva skal det stå her?"
+  },
+  {
+    "lab":"kombinasjon4",
+    "imageSrc": "/static/media/picture4.17621d9e.svg",
+    "id": 4,
+    "text": "fuck, hva skal det stå her?"
+  }
+]

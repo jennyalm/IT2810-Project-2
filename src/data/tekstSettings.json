@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "type": "radio",
+    "name": "textCategory",
+    "label": "Dikt"
+  },
+  {
+    "id": "2",
+    "type": "radio",
+    "name": "textCategory",
+    "label": "Haiku"
+  },
+  {
+    "id": "3",
+    "type": "radio",
+    "name": "textCategory",
+    "label": "Vits"
+  }
+]

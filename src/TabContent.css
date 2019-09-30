@@ -1,0 +1,215 @@
+.Tab-Content{
+    display: grid;
+    grid-template-columns: [start] 4fr [center] 4fr [end];
+    padding: 20px 0 20px 0px;
+    background: white;
+    height: 50vh;
+    box-shadow:
+            0 1px 1px rgba(0,0,0,0.15),
+            0 10px 0 -5px #eee,
+            0 10px 1px -4px rgba(0,0,0,0.15),
+            0 20px 0 -10px #eee,
+            0 20px 1px -9px rgba(0,0,0,0.15);
+}
+
+
+.pic{
+    margin-left: 100px;
+    grid-column-start: start;
+    grid-column-end: center;
+    height: 50%;
+    width: 50%;
+}
+
+.info{
+    grid-column-start: center;
+    grid-column-end: end;
+
+    display: grid;
+    grid-template-rows: [top] 3fr [middle] 2fr [bottom];
+
+    border: solid #ccc;
+    border-width: 0 0 0 1px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    width: 80%;
+
+}
+
+.info-text{
+    grid-row-start: top;
+    grid-row-end: middle;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 130%;
+    height: auto;
+
+}
+
+.play-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    grid-row-start: middle;
+    grid-row-end: bottom;
+
+}
+
+.tab-list {
+    border-bottom: 0px solid #b7b7b7;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+
+.tab-list-item {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: -1px;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    width: auto;
+}
+
+
+
+.tab-list-active {
+    background-color: white;
+    border: solid orange;
+    border-width: 0px 0px 3px 0px;
+    color: #424242;
+
+}
+.play-button{
+    width:100%;
+}
+
+@media only screen and (max-width: 600px){
+    .Tab-Content{
+        grid-template-rows: [top] 2fr [mid] 3fr [bot];
+        grid-template-columns: [right] 1fr [left];
+        margin: 0;
+        background: white;
+        max-width: 375px;
+        padding: 0;
+        height: auto;
+        width: auto;
+
+    }
+
+    .play-button{
+        height: 30%;
+    }
+
+    .pic{
+        grid-row-start: top;
+        grid-row-end: mid;
+        grid-column-start: right;
+        grid-column-end: left;
+        margin-left: 0;
+    }
+
+    .info{
+        grid-row-start: mid;
+        grid-row-end: bot;
+        grid-column-start: right;
+        grid-column-end: left;
+        border: solid #ccc;
+        border-width: 1px 0 0 0px;
+    }
+    .info-text{
+        font-size: 3vh;
+    }
+
+    .tab-list-item {
+        list-style: none;
+        margin-bottom: -1px;
+        padding: 0.5rem 0.75rem;
+        cursor: pointer;
+        width: auto;
+
+
+    }
+    .tab-list {
+        border-bottom: 0px solid #b7b7b7;
+        padding-left: 0px;
+        margin-bottom: 0;
+    }
+
+    .tab-item{
+        width: fit-content;
+    }
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 850px){
+    .Tab-Content{
+        grid-template-rows: [top] 1fr [mid] 1fr [bot];
+        grid-template-columns: [right] 1fr [left];
+        margin: 0;
+        background: white;
+        max-width: 500px;
+        justify-items: center;
+        padding: 0;
+        height: auto;
+        width:auto;
+    }
+    .play-button{
+        height: 6vh;
+    }
+
+
+    .pic{
+        grid-row-start: top;
+        grid-row-end: mid;
+        grid-column-start: right;
+        grid-column-end: left;
+        margin-left: 0;
+        padding-right: 30px;
+    }
+
+    .info{
+        grid-row-start: mid;
+        grid-row-end: bot;
+        grid-column-start: right;
+        grid-column-end: left;
+        border: solid #ccc;
+        border-width: 1px 0 0 0px;
+        height: 30vh;
+        margin-bottom: 10%;
+    }
+
+    .info-text{
+        font-size: 3vh;
+    }
+
+    .tab-list-item {
+        list-style: none;
+        margin-bottom: -1px;
+        padding: 0.5rem 0.75rem;
+        cursor: pointer;
+        width: auto;
+        font-size: 2vw;
+
+
+    }
+    .tab-list {
+        border-bottom: 0px solid #b7b7b7;
+        padding-left: 0px;
+        margin-bottom: 0;
+    }
+
+    .tab-item{
+        width: fit-content;
+    }
+
+}
+
+
+
+
+
+

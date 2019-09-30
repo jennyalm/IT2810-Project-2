@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabContent snapshot test 1`] = `
+<div
+  className="tabs"
+>
+  <ol
+    className="tab-list"
+  >
+    <li
+      className="tab-list-item tab-list-active"
+      onClick={[Function]}
+    >
+      kombinasjon1
+    </li>
+    <li
+      className="tab-list-item"
+      onClick={[Function]}
+    >
+      kombinasjon2
+    </li>
+    <li
+      className="tab-list-item"
+      onClick={[Function]}
+    >
+      kombinasjon3
+    </li>
+    <li
+      className="tab-list-item"
+      onClick={[Function]}
+    >
+      kombinasjon4
+    </li>
+  </ol>
+  <div
+    className="tab-content"
+  >
+    <div
+      className="Tab-Content"
+    >
+      <div
+        className="pic"
+      >
+        <div
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "",
+            }
+          }
+        />
+      </div>
+      <div
+        className="info"
+      >
+        <div
+          className="info-text"
+        >
+          <p />
+        </div>
+        <div
+          className="play-button"
+        >
+          <div>
+            <audio
+              controls={true}
+            >
+              <source
+                src="./Sound/undefined/undefined"
+                type="audio/mpeg"
+              />
+            </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

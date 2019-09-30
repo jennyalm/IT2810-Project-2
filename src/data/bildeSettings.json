@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "path": "dessert",
+    "type": "radio",
+    "name": "pictureCategory",
+    "label": "Dessert"
+  },
+  {
+    "id": "2",
+    "path": "drinks",
+    "type": "radio",
+    "name": "pictureCategory",
+    "label": "Drikke"
+  },
+  {
+    "id": "3",
+    "path": "food",
+    "type": "radio",
+    "name": "pictureCategory",
+    "label": "Mat"
+  }
+]

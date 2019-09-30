@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AudioPlayer snapshot test 1`] = `
+<div>
+  <audio
+    controls={true}
+  >
+    <source
+      src="./Sound/undefined/undefined"
+      type="audio/mpeg"
+    />
+  </audio>
+</div>
+`;

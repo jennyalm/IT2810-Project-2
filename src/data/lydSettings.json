@@ -1,0 +1,20 @@
+[
+  {
+    "id": "electronic",
+    "type": "radio",
+    "name": "soundCategory",
+    "label": "Elektronisk"
+  },
+  {
+    "id": "guitar",
+    "type": "radio",
+    "name": "soundCategory",
+    "label": "Gitar"
+  },
+  {
+    "id": "piano",
+    "type": "radio",
+    "name": "soundCategory",
+    "label": "Piano"
+  }
+]

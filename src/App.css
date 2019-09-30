@@ -1,0 +1,273 @@
+
+.App{
+    display: grid;
+    grid-template-columns: [left] 8fr [mid] 2fr [right];
+    grid-template-rows: [top] 1fr [mid] 6fr [bottom];
+}
+
+.headerDiv{
+    grid-column-start: left;
+    grid-column-end: right;
+    grid-row-start: top;
+    grid-row-end: mid;
+    height: 100%;
+
+    background-color: whitesmoke;
+
+    letter-spacing: 1px;
+    font-size: 170%;
+    color: #323232;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: lighter;
+}
+
+
+.App-header {
+    grid-column-start: left;
+    grid-column-end: right;
+    grid-row-start: top;
+    grid-row-end: mid;
+    height: 100%;
+
+    background-color: whitesmoke;
+
+    letter-spacing: 1px;
+    font-size: 170%;
+    color: #323232;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: lighter;
+
+}
+
+.knapp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: solid #ccc;
+    border-width: 0 0 1px 0px;
+
+
+}
+
+.knapp1{
+    background: white;
+    color: #424242;
+    border-width: 0px 0px 0px 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 5vh;
+    width: auto;
+    font-size: 1vw;
+}
+
+.knapp1:hover{
+    background: #b7b7b7;
+    color: #323232;
+    font-family: "Lato", sans-serif;
+}
+
+.knapp2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: white;
+    color: #424242;
+    border-width: 0px 0px 0px 0px;
+    font-family: "Lato", sans-serif;
+    height: 5vh;
+    width: auto;
+    font-size: 1vw;
+}
+
+.knapp2:hover{
+    background: #b7b7b7;
+    color: #323232;
+    font-family: "Lato", sans-serif;
+}
+
+.tab-align{
+    grid-column-start: left;
+    grid-column-end: mid;
+    grid-row-start: mid;
+    grid-row-end: bottom;
+    fontFamily: sans-serif;
+    textAlign: center;
+}
+
+.settings{
+    grid-column-start: mid;
+    grid-column-end: right;
+    grid-row-start: mid;
+    grid-row-end: bottom;
+    padding-top: 12%;
+    padding-left: 20%;
+    padding-right: 20%;
+    letter-spacing: 1px;
+}
+
+
+
+.App-logo {
+    height: 50vmin;
+    border: solid #282c34 3px;
+
+}
+
+.categories{
+    border: solid #ccc;
+    border-width: 0 0px 0 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+.tabs {
+    margin-left: 10%;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        font-size: 2vw;
+    }
+    .App{
+        display: grid;
+        grid-template-columns: [left] 5fr [right];
+        grid-template-rows: [top] .2fr [top-mid] .5fr [bottom-mid] 3fr [bottom];
+        max-width: 375px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .App-header{
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .headerDiv{
+        grid-row-start: top;
+        grid-row-end: top-mid;
+        grid-column-start: left;
+        grid-column-end: right;
+        text-align: left;
+        margin-left: 5px;
+        font-size: 1.5vh;
+    }
+
+    .appContent{
+        grid-row-start: bottom-mid;
+        grid-row-end: bottom;
+        grid-column-start: left;
+        grid-column-end: right;
+        width: auto;
+        height: 100vh;
+        font-size: 1vh;
+
+    }
+
+    .settings{
+        grid-row-start: top-mid;
+        grid-row-end: bottom-mid;
+        padding: 0;
+        grid-column-start: left;
+        grid-column-end: right;
+    }
+
+    .categories{
+        display: grid;
+        grid-template-columns: [left-end] 1fr [left-mid] 1fr [mid-end] 1fr [right-mid];
+        grid-template-rows: [top-end] 1fr [bottom-end] 1fr [bottom-end2];
+        padding: 0;
+        border-width: 0 0 1px 0;
+
+    }
+
+    .bildeSetting{
+        grid-column-start: left-end;
+        grid-column-end: left-mid;
+        grid-row-start: top-end;
+        grid-row-end: bottom-end;
+    }
+
+    .lydSetting{
+        grid-column-start: left-mid;
+        grid-column-end: mid-end;
+        grid-row-start: top-end;
+        grid-row-end: bottom-end;
+    }
+
+    .tekstSetting{
+        grid-column-start: mid-end;
+        grid-column-end: right-mid;
+        grid-row-start: top-end;
+        grid-row-end: bottom-end;
+    }
+
+    .storageSetting{
+        grid-column-start: left-end;
+        grid-column-end: right-end;
+        grid-row-start: bottom-end;
+        grid-row-end: bottom-end2;
+    }
+
+
+
+
+
+
+
+
+
+    .tabs{
+        margin-left: 0;
+    }
+
+    .knapp{
+        grid-column-start: left-end;
+        grid-column-end: right-end;
+        grid-row-start: bottom-end;
+        grid-row-end: bottom-end2;
+
+        padding-top: 1vh;
+        display: grid;
+        grid-template-columns: [venstre] 1fr [midt] 1fr [høyre];
+        grid-template-rows: [toppen] 1fr [bunn];
+        border-width: 0 0 0 0;
+
+    }
+    .knapp1{
+        grid-column-start:venstre;
+        grid-column-end: midt;
+        grid-row-start: toppen;
+        grid-row-end: bunn;
+
+
+        height: 3vh;
+        width: auto;
+        margin: 10px;
+        padding: 0;
+        font-size: 2vw;
+    }
+
+    .knapp2{
+        grid-column-start:midt;
+        grid-column-end: høyre;
+        grid-row-start: toppen;
+        grid-row-end: bunn;
+
+
+        height: 3vh;
+        width: auto;
+        margin: 10px;
+        padding: 0;
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 850px){
+    .appContent{
+        width: auto;
+    }
+
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "type": "2",
+    "text": "JANUARY\nDelightful display\nSnowdrops bow their pure white heads\nTo the sun's glory.",
+    "label": "kombinasjon1"
+  },
+
+  {
+    "type": "2",
+    "text": "FEBRUARY\nFresh green buds appear\nIndicating spring will soon\nEnergize us all.",
+    "label": "kombinasjon2"
+  },
+  {
+    "type": "2",
+    "text": "MARCH\nLambs gambol in fields\nFrisky with the joys of life\nBleating happily.",
+    "label": "kombinasjon3"
+  },
+  {
+    "type": "2",
+    "text": "APRIL\nBluebells stand so proud\nBeneath trees so sparsely dressed\nFresh green leaves unfold.",
+    "label": "kombinasjon4"
+  },
+
+  {
+    "type": "1",
+    "text": "Roser er røde \nfioler er blå\n sukker er søt det er du så.\n",
+    "label": "kombinasjon1"
+  },
+  {
+    "type": "1",
+    "text": "Roser er røde,\n skjermen er blå.\n Her sitter jeg og tenker:\n 'Hva faen gjorde jeg nå!?'",
+    "label": "kombinasjon2"
+  },
+  {
+    "type": "1",
+    "text": "Roser er røde,\nFioler er blå,\nde fleste dikt rimer,\nmen hvorfor være som alle de andre?",
+    "label": "kombinasjon3"
+  },
+  {
+    "type": "1",
+    "text": "roser er røde\n fioler er blå\n matte er gøy men det er du og.\n",
+    "label": "kombinasjon4"
+  },
+  {
+    "type": "3",
+    "text": "Alle barna kunne rime unntatt Håkon,\n han kunne ikke\n\n",
+    "label": "kombinasjon1"
+  },
+  {
+    "type": "3",
+    "text": "Alle barna kom til himmelen unntatt Ali,\n han kom til Bali.\n\n",
+    "label": "kombinasjon2"
+  },
+  {
+    "type": "3",
+    "text": "Alle barna var rasister unntatt Ulla,\n hun elsket Abdullah.\n\n",
+    "label": "kombinasjon3"
+  },
+  {
+    "type": "3",
+    "text": "Alle barna likte jenter unntatt Einar,\n han likte Steinar.\n\n",
+    "label": "kombinasjon4"
+  }
+]
